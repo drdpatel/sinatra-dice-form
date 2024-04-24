@@ -7,3 +7,7 @@ get("/") do
   <p>Define some routes in app.rb</p>
   "
 end
+
+get ("process_role") do
+  erb(:results)
+end
