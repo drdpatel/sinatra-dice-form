@@ -8,6 +8,6 @@ get("/") do
   "
 end
 
-get ("process_role") do
+get ("process_roll") do
   erb(:results)
 end
